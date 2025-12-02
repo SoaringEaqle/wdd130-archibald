@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Revalia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    --primary-color: #5BC0BE;
+    --secondary-color: #008F00;
+    --accent1-color: #C03221;
+    --accent2-color: #0016E0;
+    --accent3-color: #F2D0A4;
+
+}
