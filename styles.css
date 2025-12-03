@@ -119,3 +119,18 @@ nav{
     grid-area: image;
     width: 100%;
 }
+
+#paragraph1, #paragraph2, #paragraph3, #paragraph4 {
+    padding: 50px 50px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content h4 {font-size: 2em;}
+
+.content > :nth-child(1) {
+    grid-column: 1 / 3;
+}
