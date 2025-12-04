@@ -115,6 +115,7 @@ nav{
     grid-area: text;
     font-size: 4em;
 }
+
 .info img{
     grid-area: image;
     width: 100%;
