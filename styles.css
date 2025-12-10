@@ -7,7 +7,6 @@
     --accent2-color: #0016E0;
     --accent3-color: #F2D0A4;
 
-
     --heading-font: "Revalia", sans-serif;
     --info-heading-font: "Archivo Black", sans-serif;
     --paragraph-font: "Roboto", sans-serif;
@@ -142,6 +141,7 @@ nav{
 
 .content h4 {font-size: 2em;}
 
+<<<<<<< HEAD
 footer{
     background-color: var(--secondary-color);
     width: 100%;
@@ -157,3 +157,91 @@ footer p{
     grid-column: 1/4;
 }
 
+=======
+.content > :nth-child(1) {
+    grid-column: 1 / 3;
+}
+footer {
+    background: #008F00;
+}
+#carbanner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#carbanner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+#carbanner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: rgba(0,0,0,0.6);
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin: 0;
+    color: #C03221;
+}
+#matcontent {
+    border: 10px solid #F2D0A4;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+}
+#matcontent > p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    color: #333;
+    padding: 10px 20px;
+}
+.material-block {
+    border: 10px solid #F2D0A4;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    background: #C03221;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
+}
+.material-block h2 {
+    background: #F2D0A4;
+    color: #000;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    grid-column: 1 / span 2;
+}
+.material-block p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 20px;
+    grid-column: 1;
+    align-self: center;
+}
+.material-block img {
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+    max-height: 80%;
+    max-width: 90%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.material-block {
+    grid-template-columns: 1fr 1fr;
+}
+>>>>>>> 9cbdba25cf768dc98bf32636ec8043877ab5bad3
